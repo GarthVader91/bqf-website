@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 /*Your Custom CSS Goes here*/
+@font-face {
+  font-family: Poppins;
+  src: url('/Poppins-Regular.ttf') format('ttf');
+  font-display: swap
+}
 
 h1 {
   @apply text-4xl tracking-tighter mb-3 text-center lg:text-7xl;
@@ -12,6 +17,9 @@ h3 {
   @apply text-2xl font-bold mb-3;
 }
 
+body {
+  font-family: Poppins;
+}
 /* Syntax Highlighting*/
 
 body :not(pre) > code[class*="language-"],

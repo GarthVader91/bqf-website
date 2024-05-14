@@ -1,10 +1,14 @@
 ---
 items:
-  - text: Menu One
-    url: "#"
-  - text: Menu Two
-    url: "#"
-  - text: Menu Three
-    url: "#"
-  - text: Blog
-    url: "/blog"
+  - text: About Us
+    url: "/about"
+  - text: Downloads
+    url: "/downloads"
+  - text: News
+    url: "/news"
+  - text: Ministries & Contact Info
+    url: "/ministriesandcontact"
+  - text: Nationals
+    url: "/nationals"
+  - text: How to Join?
+    url: "/howtojoin"
