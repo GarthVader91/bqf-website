@@ -20,6 +20,14 @@ h3 {
 body {
   font-family: Poppins;
 }
+
+.submenu {
+  display: none; /* Initially hidden */
+}
+
+.menu-item.has-submenu:hover .submenu {
+  display: block; /* Show submenu on hover */
+}
 /* Syntax Highlighting*/
 
 body :not(pre) > code[class*="language-"],

@@ -10,5 +10,12 @@ items:
     url: "/ministriesandcontact"
   - text: Nationals
     url: "/nationals"
+    subitems:
+    - text: Stats
+      url: "/stats"
+    - text: Social Media
+      url: "/social-media"
+    - text: 8 Year Rotation
+      url: "/8-year-rotation"
   - text: How to Join?
     url: "/howtojoin"
